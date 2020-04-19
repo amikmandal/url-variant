@@ -1,5 +1,3 @@
-Cloudflare URL: https://url-variant.amikmandal.workers.dev/
-
 Note:
 
 My understanding of the cookie instruction was that if we hit refresh it should randomly send the user one of the available variants of the webpage. But if we close the browser and open the application again then it should return the last visited type. I have coded accordingly.

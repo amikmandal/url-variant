@@ -1,0 +1,6 @@
+name = "url-variant"
+type = "javascript"
+account_id = "bfdf86002988e488ecfe583b467879dc"
+workers_dev = true
+route = ""
+zone_id = ""

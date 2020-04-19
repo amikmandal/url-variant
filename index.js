@@ -1,3 +1,4 @@
+const HIT_API = "https://cfw-takehome.developers.workers.dev/api/variants"
 const PERSONAL_LINK = "https://www.linkedin.com/in/amik-mandal/"
 
 let map = new Map()
@@ -30,7 +31,7 @@ addEventListener('fetch', event => {
 
 async function handleRequest(request) {
   try {
-    const response = await fetch('https://cfw-takehome.developers.workers.dev/api/variants')
+    const response = await fetch(HIT_API)
     const jsonResponse = await response.json()
     var urls = jsonResponse.variants
   } catch (err) {
